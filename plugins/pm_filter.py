@@ -817,19 +817,35 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                 ],[
                 InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='premium_info'),
-                InlineKeyboardButton('♻️ Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇꜱ ✅', callback_data="reffff")
+                InlineKeyboardButton('♻️ Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇꜱ ✅', callback_data="extra")
                 ],[
                 InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                 InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                 ],[
                 InlineKeyboardButton('⚜️ Rᴇꜰꜰᴇʀ & Gᴇᴛ Fʀᴇᴇ Pʀᴇᴍɪᴜᴍ ⚜️', callback_data="reffff")
 	          ]] 
-        reply_markup = InlineKeyboardMarkup(buttons)
+	reply_markup = InlineKeyboardMarkup(buttons)
+        current_time = datetime.now(pytz.timezone(TIMEZONE))
+        curr_time = current_time.hour        
+        if curr_time < 12:
+            gtxt = "Gᴏᴏᴅ Mᴏʀɴɪɴɢ 🌞" 
+        elif curr_time < 17:
+            gtxt = "Gᴏᴏᴅ Aғᴛᴇʀɴᴏᴏɴ 🌓" 
+        elif curr_time < 21:
+            gtxt = "Gᴏᴏᴅ Eᴠᴇɴɪɴɢ 🌘"
+        else:
+            gtxt = "Gᴏᴏᴅ Nɪɢʜᴛ 🌑"
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+	)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, get_status(), query.from_user.id),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )      
+	await query.answer(MSG_ALRT)
 
     elif query.data == "purchase":
         buttons = [[
@@ -912,7 +928,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[            
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
-      
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.PLAN_TXT.format(query.from_user.mention),
@@ -930,6 +951,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
         ]]
+	reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.FREE_TXT.format(query.from_user.mention),
@@ -947,6 +974,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
         ]]
+	reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.BRONZE_TXT.format(query.from_user.mention),
@@ -963,6 +996,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
         ]]
+	reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.SILVER_TXT.format(query.from_user.mention),
@@ -980,6 +1019,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
         ]]
+	reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.GOLD_TXT.format(query.from_user.mention),
@@ -997,6 +1042,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
         ]]
+	reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.PLATINUM_TXT.format(query.from_user.mention),
@@ -1015,6 +1066,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
         ]]
+	reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.DIAMOND_TXT.format(query.from_user.mention),
@@ -1028,6 +1085,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('• 𝗕𝗮𝗰𝗸 •', callback_data='free')
         ]]
+	reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.OTHER_TXT.format(query.from_user.mention),
