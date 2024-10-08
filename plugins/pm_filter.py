@@ -829,8 +829,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.START_TXT.format(query.from_user.mention, get_status(), query.from_user.id),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        ) 
-
+        )      
     elif query.data == "purchase":
         buttons = [[
             InlineKeyboardButton('💵 ᴘᴀʏ ᴠɪᴀ ᴜᴘɪ ɪᴅ 💵', callback_data='upi_info')
