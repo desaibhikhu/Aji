@@ -78,9 +78,9 @@ async def send_movie_updates(bot, file_name, caption, file_id):
         poster_url = await get_imdb(movie_name)
         caption_message = (
             f"🎬 <b>Title:</b> <code>{movie_name}</code>\n"
-            f"📆 <b>Year:</b> {release_date or 'Unknown'}\n"
-            f"🎭 <b>Genres:</b> {genres or 'Unknown'}\n"
-            f"⭐ <b>IMDb Rating:</b> {rating or 'N/A'} / 10\n"
+            f"📆 <b>Year:</b> {release_date}\n"
+            f"🎭 <b>Genres:</b> {genres}\n"
+            f"⭐ <b>IMDb Rating:</b> {rating} / 10\n"
             f"🔊 <b>Language:</b> {language}\n"
             f"💿 <b>Quality:</b> {quality}\n\n"
             f"📌 <b>𝗡𝗼𝘁𝗲 :</b> Iғ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ɢᴇᴛ ᴀʟʟ ǫᴜᴀʟɪᴛʏ ғɪʟᴇs, ᴘʟᴇᴀsᴇ ᴄᴏᴘʏ  ᴛʜᴇ ᴀʙᴏᴠᴇ ғɪʟᴇ ɴᴀᴍᴇ  ᴀɴᴅ ᴘᴀsᴛᴇ ɪᴛ ɪɴᴛᴏ ᴛʜᴇ ʙᴇʟᴏᴡ ᴍᴏᴠɪᴇ sᴇᴀʀᴄʜ ɢʀᴏᴜᴘ..\n\n"    
