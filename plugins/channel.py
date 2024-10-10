@@ -82,20 +82,19 @@ async def send_movie_updates(bot, file_name, caption, file_id):
         
         caption_message = (
             f"🎬 <b>Title:</b> <code>{title or movie_name}</code>\n"
-            f"🗂 <b>Genres:</b> {genres or 'Unknown'}\n"
             f"📆 <b>Year:</b> {release_date or 'Unknown'}\n"
-            f"⭐ <b>IMDb Rating:</b> {rating or 'N/A'} / 10\n\n"
+            f"🎭 <b>Genres:</b> {genres or 'Unknown'}\n"
+            f"⭐ <b>IMDb Rating:</b> {rating or 'N/A'} / 10\n"
             f"🔊 <b>Language:</b> {language}\n"
             f"💿 <b>Quality:</b> {quality}\n\n"
-            f"📌 <b>𝗡𝗼𝘁𝗲:</b> 𝙄𝙛 𝙮𝙤𝙪 𝙣𝙚𝙚𝙙 𝙩𝙤 𝙜𝙚𝙩 𝙖𝙡𝙡 𝙦𝙪𝙖𝙡𝙞𝙩𝙮 𝙛𝙞𝙡𝙚𝙨, 𝙥𝙡𝙚𝙖𝙨𝙚 𝙘𝙤𝙥𝙮 𝙩𝙝𝙚 𝙖𝙗𝙤𝙫𝙚 𝙛𝙞𝙡𝙚 𝙣𝙖𝙢𝙚 𝙖𝙣𝙙 𝙥𝙖𝙨𝙩𝙚 𝙞𝙩 𝙞𝙣𝙩𝙤 𝙩𝙝𝙚 𝙗𝙚𝙡𝙤𝙬 𝙢𝙤𝙫𝙞𝙚 𝙨𝙚𝙖𝙧𝙘𝙝 𝙜𝙧𝙤𝙪𝙥 🔰.\n\n"
-            f"🎥 <b>𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗟𝗶𝗻𝗸:</b> 𝘾𝙡𝙞𝙘𝙠 𝙩𝙝𝙚 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬 𝙩𝙤 𝙜𝙚𝙩 𝙩𝙝𝙚 𝙛𝙞𝙡𝙚 🎥!"
+            f"📌 <b>𝗡𝗼𝘁𝗲:</b> Iғ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ɢᴇᴛ ᴀʟʟ ǫᴜᴀʟɪᴛʏ ғɪʟᴇs, ᴘʟᴇᴀsᴇ ᴄᴏᴘʏ ᴛʜᴇ ᴀʙᴏᴠᴇ ғɪʟᴇ ɴᴀᴍᴇ ᴀɴᴅ ᴘᴀsᴛᴇ ɪᴛ ɪɴᴛᴏ ᴛʜᴇ ʙᴇʟᴏᴡ ᴍᴏᴠɪᴇ sᴇᴀʀᴄʜ ɢʀᴏᴜᴘ..\n\n"
         )
         
         movie_update_channel = await db.movies_update_channel_id()    
         
         btn = [
-            [InlineKeyboardButton('🎥 𝗚𝗲𝘁 𝗙𝗶𝗹𝗲 🎥', url=f'https://t.me/{temp.U_NAME}?start=pm_mode_file_{ADMINS[0]}_{file_id}')],
-            [InlineKeyboardButton('🔰 𝗠𝗼𝘃𝗶𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗚𝗿𝗼𝘂𝗽 🔰', url='https://t.me/+OG3sftDEbZ9kMzFl')]
+            [InlineKeyboardButton('📥 𝗚𝗲𝘁 𝗙𝗶𝗹𝗲 📥', url=f'https://t.me/{temp.U_NAME}?start=pm_mode_file_{ADMINS[0]}_{file_id}')],
+            [InlineKeyboardButton('🔰 𝗠𝗼𝘃𝗶𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗚𝗿𝗼𝘂𝗽 🔰', url='https://t.me/Movieprovidergroups')]
         ]
         reply_markup = InlineKeyboardMarkup(btn)
         
