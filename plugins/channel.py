@@ -87,7 +87,7 @@ async def send_movie_updates(bot, file_name, caption, file_id):
             f"⭐ <b>IMDb Rating:</b> {rating or 'N/A'} / 10\n"
             f"🔊 <b>Language:</b> {language}\n"
             f"💿 <b>Quality:</b> {quality}\n\n"
-            f"📌 <b>𝗡𝗼𝘁𝗲:</b> Iғ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ɢᴇᴛ ᴀʟʟ ǫᴜᴀʟɪᴛʏ ғɪʟᴇs, ᴘʟᴇᴀsᴇ ᴄᴏᴘʏ ᴛʜᴇ ᴀʙᴏᴠᴇ ғɪʟᴇ ɴᴀᴍᴇ ᴀɴᴅ ᴘᴀsᴛᴇ ɪᴛ ɪɴᴛᴏ ᴛʜᴇ ʙᴇʟᴏᴡ ᴍᴏᴠɪᴇ sᴇᴀʀᴄʜ ɢʀᴏᴜᴘ..\n\n"
+            f"📌 𝗡𝗼𝘁𝗲 : Iғ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ɢᴇᴛ ᴀʟʟ ǫᴜᴀʟɪᴛʏ ғɪʟᴇs, ᴘʟᴇᴀsᴇ ᴄᴏᴘʏ ᴛʜᴇ ᴀʙᴏᴠᴇ ғɪʟᴇ ɴᴀᴍᴇ ᴀɴᴅ ᴘᴀsᴛᴇ ɪᴛ ɪɴᴛᴏ ᴛʜᴇ ʙᴇʟᴏᴡ ᴍᴏᴠɪᴇ sᴇᴀʀᴄʜ ɢʀᴏᴜᴘ..\n\n"
         )
         
         movie_update_channel = await db.movies_update_channel_id()    
