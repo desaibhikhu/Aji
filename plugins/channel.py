@@ -76,7 +76,7 @@ async def send_movie_updates(bot, file_name, caption, file_id):
             return 
         processed_movies.add(movie_name)    
         poster_url = await get_imdb(movie_name)
-        caption_message = 
+        caption_message = (
             f"🎬 <b>Title:</b> <code>{title or movie_name}</code>\n"
             f"📆 <b>Year:</b> {release_date or 'Unknown'}\n"
             f"🎭 <b>Genres:</b> {genres or 'Unknown'}\n"
@@ -84,6 +84,7 @@ async def send_movie_updates(bot, file_name, caption, file_id):
             f"🔊 <b>Language:</b> {language}\n"
             f"💿 <b>Quality:</b> {quality}\n\n"
             f"📌 <b>𝗡𝗼𝘁𝗲 :</b> Iғ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ɢᴇᴛ ᴀʟʟ ǫᴜᴀʟɪᴛʏ ғɪʟᴇs, ᴘʟᴇᴀsᴇ ᴄᴏᴘʏ  ᴛʜᴇ ᴀʙᴏᴠᴇ ғɪʟᴇ ɴᴀᴍᴇ  ᴀɴᴅ ᴘᴀsᴛᴇ ɪᴛ ɪɴᴛᴏ ᴛʜᴇ ʙᴇʟᴏᴡ ᴍᴏᴠɪᴇ sᴇᴀʀᴄʜ ɢʀᴏᴜᴘ..\n\n"    
+        )
         movie_update_channel = await db.movies_update_channel_id()    
         btn = [
             [InlineKeyboardButton('📥 𝗚𝗲𝘁 𝗙𝗶𝗹𝗲 📥', url=f'https://t.me/{temp.U_NAME}?start=pm_mode_file_{ADMINS[0]}_{file_id}')
