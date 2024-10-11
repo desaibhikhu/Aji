@@ -205,11 +205,12 @@ User - {}"""
 #verified_{}_completed"""
 
 
-    MOVIES_UPDATE_TXT = """<b>#𝑵𝒆𝒘_𝑭𝒊𝒍𝒆_𝑨𝒅𝒅𝒆𝒅 ✅
-🧿 ᴛɪᴛʟᴇ: {title}
+    MOVIES_UPDATE_TXT = """<b>
+🎬 Title: {title}
+📆 Year: {year}
 🎭 ɢᴇɴʀᴇ: {genres}
 🌟 ʀᴀᴛɪɴɢ: {rating} / 10
-©️ Powerd by: @KR_Movie2
+©️ Powerd by: 
 
 📖 ᴘʟᴏᴛ: {plot}
 
