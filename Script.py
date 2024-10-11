@@ -209,7 +209,6 @@ User - {}"""
 🎭 Genres : {genres}
 🌟 Rating : {rating} / 10
 🔊 Language : {language}
-💿 Quality : {Quality}
 
 📖 ᴘʟᴏᴛ: {plot}
 
