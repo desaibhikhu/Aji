@@ -210,6 +210,7 @@ User - {}"""
 📆 Year: {year}
 🎭 ɢᴇɴʀᴇ: {genres}
 🌟 ʀᴀᴛɪɴɢ: {rating} / 10
+🔊 Language: {language}
 ©️ Powerd by: 
 
 📖 ᴘʟᴏᴛ: {plot}
