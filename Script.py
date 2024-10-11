@@ -206,12 +206,12 @@ User - {}"""
 
 
     MOVIES_UPDATE_TXT = """<b>
-**🎬 Title :** {title}
-**📆 Year :** {year}
-**🎭 Genres :** {genres}
-**🌟 Rating :** {rating} / 10
-**🔊 Language :** {language}
-**💿 Quality :** {Quality}
+🎬 Title : {title}
+📆 Year : {year}
+🎭 Genres : {genres}
+🌟 Rating : {rating} / 10
+🔊 Language : {language}
+💿 Quality : {Quality}
 
 📖 ᴘʟᴏᴛ: {plot}
 
