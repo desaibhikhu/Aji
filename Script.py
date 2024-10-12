@@ -204,17 +204,15 @@ User - {}"""
 
 
     MOVIES_UPDATE_TXT = """<b>
-**🎬 Title :** {title}
-**📆 Year :** {year}
-**🎭 Genres :** {genres}
-**🌟 Rating :** {rating} / 10
-**🔊 Language :** {language}
-**💿 Quality :** {Quality}
+🎬 𝗧ɪᴛʟᴇ: <code>{title}</code>
+🎭 𝗚ᴇɴʀᴇ: {genres}
+🌟 𝗥ᴀᴛɪɴɢ: {rating} / 10
 
-📖 ᴘʟᴏᴛ: {plot}
+📖 𝗦ᴛᴏʀʏ: {plot}
 
-<b><blockquote>⚠️ ɴᴏᴛᴇ : ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴀʟʟ ғɪʟᴇs ɪɴ ᴅɪғғᴇʀᴇɴᴛ ǫᴜᴀʟɪᴛʏ ᴀɴᴅ ʟᴀɴɢᴜᴀɢᴇs ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ɢɪᴠᴇɴ ʙᴜᴛᴛᴏɴ ᴀɴᴅ sᴇᴀʀᴄʜ ᴛʜᴇʀᴇ</blockquote></b>"""
+<b><blockquote>⚠️ ɴᴏᴛᴇ : ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴀʟʟ ғɪʟᴇs ɪɴ ᴅɪғғᴇʀᴇɴᴛ ǫᴜᴀʟɪᴛʏ ᴀɴᴅ ʟᴀɴɢᴜᴀɢᴇs ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ɢɪᴠᴇɴ ʙᴜᴛᴛᴏɴ ᴀɴᴅ sᴇᴀʀᴄʜ ᴛʜᴇʀᴇ</blockquote></b>
 
+<blockquote>🌿 ©️ Uᴘʟᴏᴀᴅ ʙʏ : <a url='https://t.me/Heart_thieft'>Hᴇᴀʀᴛ_Tʜɪᴇꜰᴛ</a></blockquote></b>"""
 
     PREPLANS_TXT = """<b>👋 ʜᴇʏ {},
 
