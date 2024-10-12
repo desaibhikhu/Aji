@@ -205,16 +205,16 @@ User - {}"""
 #verified_{}_completed"""
 
 
-    MOVIES_UPDATE_TXT = """<b>#𝑵𝒆𝒘_𝑭𝒊𝒍𝒆_𝑨𝒅𝒅𝒆𝒅 ✅
-🧿 ᴛɪᴛʟᴇ: {title}
-🎭 ɢᴇɴʀᴇ: {genres}
-🌟 ʀᴀᴛɪɴɢ: {rating} / 10
-©️ Powerd by: @KR_Movie2
+    MOVIES_UPDATE_TXT = """<b>
+🎬 𝗧ɪᴛʟᴇ: <code>{title}</code>
+🎭 𝗚ᴇɴʀᴇ: {genres}
+🌟 𝗥ᴀᴛɪɴɢ: {rating} / 10
 
-📖 ᴘʟᴏᴛ: {plot}
+📖 𝗦ᴛᴏʀʏ: {plot}
 
 <b><blockquote>⚠️ ɴᴏᴛᴇ : ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴀʟʟ ғɪʟᴇs ɪɴ ᴅɪғғᴇʀᴇɴᴛ ǫᴜᴀʟɪᴛʏ ᴀɴᴅ ʟᴀɴɢᴜᴀɢᴇs ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ɢɪᴠᴇɴ ʙᴜᴛᴛᴏɴ ᴀɴᴅ sᴇᴀʀᴄʜ ᴛʜᴇʀᴇ</blockquote></b>
-</b>"""
+
+<blockquote>🌿 ©️ Uᴘʟᴏᴀᴅ ʙʏ : <a url='https://t.me/Heart_thieft'>ʜᴇᴀʀᴛ_ᴛʜɪᴇꜰᴛ</a></blockquote></b>"""
 
     PREPLANS_TXT = """<b>👋 ʜᴇʏ {},
 
