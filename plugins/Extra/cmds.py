@@ -35,6 +35,7 @@ async def admin_cmds(client, message):
         [KeyboardButton("/remove_premium"), KeyboardButton("/add_redeem")],
         [KeyboardButton("/refresh"), KeyboardButton("/set_muc")],
         [KeyboardButton("/pm_search_on"), KeyboardButton("/pm_search_off")],
+        [KeyboardButton("/movie_update_on"), KeyboardButton("/movie_update_off")],
         [KeyboardButton("/set_ads"), KeyboardButton("/del_ads")],
         [KeyboardButton("/setlist"), KeyboardButton("/clearlist")],
         [KeyboardButton("/verify_id"), KeyboardButton("/index")],
@@ -45,7 +46,7 @@ async def admin_cmds(client, message):
         [KeyboardButton("/del_file"), KeyboardButton("/delete")],
         [KeyboardButton("/deletefiles"), KeyboardButton("/deleteall")],
         [KeyboardButton("All These Commands Can Be Used Only By Admins.")],
-        [KeyboardButton("⚡ powered by @JISSHU_BOTS")]
+        [KeyboardButton("⚡ powered by @Hᴇᴀʀᴛ_Tʜɪᴇꜰ 💕")]
     ]
     reply_markup = ReplyKeyboardMarkup(buttons, resize_keyboard=True, one_time_keyboard=True)
    
