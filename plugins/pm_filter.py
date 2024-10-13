@@ -864,11 +864,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
+        await query.message.edit_media(
+            media=InputMediaPhoto(
+            media=random.choice(START_IMG),
+            caption=script.HELP_TXT,
+            parse_mode=enums.ParseMode.HTML 
+            ),
+            reply_markup=reply_markup
+	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.JOINUPDATES_TXT.format(query.from_user.mention),
