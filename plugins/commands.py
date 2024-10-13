@@ -188,7 +188,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                            InlineKeyboardButton('(♡ Sᴜᴘᴘᴏʀᴛ ♡', callback_data="JoinUᴘᴅᴀᴛᴇs")
+                            InlineKeyboardButton('♡ Sᴜᴘᴘᴏʀᴛ ♡', callback_data="JoinUᴘᴅᴀᴛᴇs")
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
@@ -219,7 +219,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                            InlineKeyboardButton('(♡ Sᴜᴘᴘᴏʀᴛ ♡', callback_data="JoinUᴘᴅᴀᴛᴇs")
+                            InlineKeyboardButton('♡ Sᴜᴘᴘᴏʀᴛ ♡', callback_data="JoinUᴘᴅᴀᴛᴇs")
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
@@ -283,7 +283,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                            InlineKeyboardButton('(♡ Sᴜᴘᴘᴏʀᴛ ♡', callback_data="JoinUᴘᴅᴀᴛᴇs")
+                            InlineKeyboardButton('♡ Sᴜᴘᴘᴏʀᴛ ♡', callback_data="JoinUᴘᴅᴀᴛᴇs")
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
