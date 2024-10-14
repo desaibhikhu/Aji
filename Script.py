@@ -210,7 +210,7 @@ User - {}"""
 #verified_{}_completed"""
 
 
-    MOVIES_UPDATE_TXT = """<b>
+    MOVIES_UPDATE_TXT = """<b>#𝑵𝒆𝒘_𝑭𝒊𝒍𝒆_𝑨𝒅𝒅𝒆𝒅 ✅
 🎬 𝗧ɪᴛʟᴇ  : <code>{title}</code>
 📆 𝗬ᴇᴀʀ  :  {year}
 🎭 𝗚ᴇɴʀᴇ : {genres}
