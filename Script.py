@@ -113,6 +113,8 @@ User - {}"""
 📇 ɪᴅ - <code>{}</code>
 
 🎁 ʀᴇǫᴜᴇꜱᴛ ᴍꜱɢ - <code>{}</code></b>"""  
+
+    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/ccmtamil">𝘾𝙇𝘼𝙎𝙎𝙄𝘾 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕</a>」</b>"""
    
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
@@ -122,10 +124,7 @@ User - {}"""
 📆 Year: {release_date}
 ⭐ Rating: {rating} / 10</b>
 """
-
-    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/ccmtamil">𝘾𝙇𝘼𝙎𝙎𝙄𝘾 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕</a>」</b>"""
     
-
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
 
     OLD_ALRT_TXT = """ʏᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴍʏ ᴏʟᴅ ᴍᴇssᴀɢᴇs..sᴇɴᴅ ᴀ ɴᴇᴡ ʀᴇǫᴜᴇsᴛ.."""
