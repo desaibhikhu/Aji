@@ -1074,7 +1074,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           message_id=query.message.id,
           media=InputMediaAnimation(
             media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Group_20240921_202540_0001.gif",
-            caption=script.GROUP_TEXT.format(temp.B_LINK),
+            caption=script.GROUP_C_TEXT.format(temp.B_LINK),
             parse_mode=enums.ParseMode.HTML
         ),
         reply_markup=reply_markup
