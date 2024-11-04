@@ -210,16 +210,14 @@ User - {}"""
 #verified_{}_completed"""
 
 
-    MOVIES_UPDATE_TXT = """<b>#𝑵𝒆𝒘_𝑭𝒊𝒍𝒆_𝑨𝒅𝒅𝒆𝒅 ✅
+    MOVIES_UPDATE_TXT = """<b>
 🎬 𝗧ɪᴛʟᴇ  : <code>{title}</code>
 📆 𝗬ᴇᴀʀ  :  {year}
 🎭 𝗚ᴇɴʀᴇ : {genres}
 🌟 𝗥ᴀᴛɪɴɢ : {rating} / 10
 
 📖 𝗦ᴛᴏʀʏ: {plot}
-
 <b><blockquote>⚠️ ɴᴏᴛᴇ : ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴀʟʟ ғɪʟᴇs ɪɴ ᴅɪғғᴇʀᴇɴᴛ ǫᴜᴀʟɪᴛʏ ᴀɴᴅ ʟᴀɴɢᴜᴀɢᴇs ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ɢɪᴠᴇɴ ʙᴜᴛᴛᴏɴ ᴀɴᴅ sᴇᴀʀᴄʜ ᴛʜᴇʀᴇ</blockquote></b>
-
 <blockquote>🌿 ©️ Uᴘʟᴏᴀᴅ ʙʏ : <a href='https://t.me/Heart_thieft'>ʜᴇᴀʀᴛ_ᴛʜɪᴇꜰ</a></blockquote></b>"""
 
     PREPLANS_TXT = """<b>👋 ʜᴇʏ {},
