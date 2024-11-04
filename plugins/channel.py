@@ -54,7 +54,7 @@ async def send_movie_updates(bot, file_name, file_id):
     processed_movies.add(movie_name)
     poster_url = await get_imdb(movie_name)
     caption_message = f"#New_File_Added ✅\n\nFile_Name:- <code>{movie_name}</code>\n\nLanguage:- {language}\n\nQuality:- {quality}" 
-        search_movie = movie_name.replace(" ", '-')
+    search_movie = movie_name.replace(" ", '-')
     if not poster_url or not caption:
         return
     btn = [
