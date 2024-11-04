@@ -54,7 +54,9 @@ async def send_movie_updates(bot, file_name, file_id):
     processed_movies.add(imdb_title)
     if not poster_url or not caption:
         return
-    btn = [
+    btn = [[
+        InlineKeyboardButton('📂 ɢᴇᴛ ғɪʟᴇ 📂', url=f'https://telegram.me/{temp.U_NAME}?start=getfile-{search_movie}')
+        ],[
         InlineKeyboardButton('💫 ᴍᴏᴠɪᴇꜱ ʀᴇQᴜᴇꜱᴛ 💫', url=f'https://t.me/Movieprovidergroups')
     ]
     reply_markup = InlineKeyboardMarkup(btn)
