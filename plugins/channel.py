@@ -55,8 +55,9 @@ async def send_movie_updates(bot, file_name, file_id):
     if not poster_url or not caption:
         return
     btn = [
-        [InlineKeyboardButton('💫 ɢᴇᴛ ғɪʟᴇ ғʀᴏᴍ ʜᴇʀᴇ 💫', url=f'https://t.me/Movieprovidergroups')]
-    ]
+        [InlineKeyboardButton('📂 ɢᴇᴛ ғɪʟᴇ 📂', url=f'https://telegram.me/{temp.U_NAME}?start=getfile-{search_movie}')
+        ],[InlineKeyboardButton('💫 ᴍᴏᴠɪᴇꜱ ʀᴇQᴜᴇꜱᴛ 💫', url=f'https://t.me/Movieprovidergroups')
+          ]]
     reply_markup = InlineKeyboardMarkup(btn)
     movie_update_channel =await db.movies_update_channel_id()
     try:
