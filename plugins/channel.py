@@ -58,7 +58,7 @@ async def send_movie_updates(bot, file_name, file_id):
     if not poster_url or not caption:
         return
     btn = [
-            [InlineKeyboardButton('📥 𝗚𝗲𝘁 𝗙𝗶𝗹𝗲 📥', url=f'https://telegram.me/{temp.U_NAME}?start=getfile-{search_movie}')
+            [InlineKeyboardButton('📥 𝗚𝗲𝘁 𝗙𝗶𝗹𝗲 📥', url=f'https://t.me/{temp.U_NAME}?start=getfile-{search_movie}')
           ],[
              InlineKeyboardButton('🔰 𝗠𝗼𝘃𝗶𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗚𝗿𝗼𝘂𝗽 🔰', url='https://t.me/Movieprovidergroups')]
     ]
