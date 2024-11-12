@@ -114,7 +114,7 @@ User - {}"""
 
 🎁 ʀᴇǫᴜᴇꜱᴛ ᴍꜱɢ - <code>{}</code></b>"""  
 
-    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/ccmtamil">𝘾𝙇𝘼𝙎𝙎𝙄𝘾 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕</a>」</b>"""
+    FILE_CAPTION = """<b>{file_name}\n\n⚡ 𝐉𝐨𝐢𝐧 ➟ <a href="https://t.me/TamizhZone"><b>TᴀᴍɪᴢʜZᴏɴᴇ</b></a></b>"""
    
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
