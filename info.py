@@ -37,6 +37,7 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002393358982'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002181741528')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002329218829'))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002389516001')).split()]
+PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 request_channel = environ.get('REQUEST_CHANNEL', '-1002369002372') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002387499459')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/cc_support_group') #Support group link ( make sure bot is admin )
