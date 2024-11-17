@@ -76,7 +76,7 @@ async def send_movie_updates(bot, file_name, caption, file_id):
             return 
         processed_movies.add(movie_name)    
         poster_url = await get_imdb(movie_name)
-        caption_message = f"<b>🎬 ꜰɪʟᴇ ɴᴀᴍᴇ:</b> <code>{movie_name}</code>\n\n<b>🔊 ʟᴀɴɢᴜᴀɢᴇ:- {language} </b>\n\n<b>💿 Qᴜᴀʟɪᴛʏ:- {quality} </b>\n\n<blockquote>🌿 Uᴘʟᴏᴀᴅ ʙʏ : url= <a 'https://t.me/Heart_thieft'>Hᴇᴀʀᴛ_Tʜɪᴇꜰ</a></blockquote></b>" 
+        caption_message = f"<b>🎬 ꜰɪʟᴇ ɴᴀᴍᴇ:</b> <code>{movie_name}</code>\n\n<b>🔊 ʟᴀɴɢᴜᴀɢᴇ:- {language} </b>\n\n<b>💿 Qᴜᴀʟɪᴛʏ:- {quality} </b>\n\n<blockquote>🌿 ©️ Uᴘʟᴏᴀᴅ ʙʏ : <a href='https://t.me/Heart_thieft'>Hᴇᴀʀᴛ_Tʜɪᴇꜰ</a></blockquote></b></b>" 
         search_movie = movie_name.replace(" ", '-')
         movie_update_channel = await db.movies_update_channel_id()    
         btn = [[
