@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '6700618694:AAHDAmKEbokn-5GkpseIVWGIyZTM2YZ
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6762558871').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Heart_thieft") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002391269521'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Movieprovidergroups')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+hZG8OILc-qA3MzFl')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002489528366 -1002069400808 -1002251860287 -1002397280633 -1002297410701 -1002441627959 -1002348399921').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -38,10 +38,10 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1002181741528')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002329218829'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002369002372') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002387499459')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/cc_support_group') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/TGHelpingGroup') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_To_Get_Movie")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/How_To_Get_Movie")
@@ -107,7 +107,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "https://premiumbot.koyeb.app/")
+URL = environ.get("FQDN", "https://filesharingbotz.koyeb.app/")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
