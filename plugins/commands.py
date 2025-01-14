@@ -741,7 +741,7 @@ async def set_shortner(c, m):
     if not await is_check_admin(c, grp_id, m.from_user.id):
         return await m.reply_text('<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴘ</b>')        
     if len(m.text.split()) == 1:
-        await m.reply("<b>Use this command like this - \n\n`/set_shortner tnshort.net 06b24eb6bbb025713cd522fb3f696b6d5de11354`</b>")
+        await m.reply("<b>Use this command like this - \n\n`/set_verify tnshort.net 06b24eb6bbb025713cd522fb3f696b6d5de11354`</b>")
         return        
     sts = await m.reply("<b>♻️ ᴄʜᴇᴄᴋɪɴɢ...</b>")
     await asyncio.sleep(1.2)
@@ -775,7 +775,7 @@ async def set_shortner_2(c, m):
     if not await is_check_admin(c, grp_id, m.from_user.id):
         return await m.reply_text('<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴘ</b>')
     if len(m.text.split()) == 1:
-        await m.reply("<b>Use this command like this - \n\n`/set_shortner_2 tnshort.net 06b24eb6bbb025713cd522fb3f696b6d5de11354`</b>")
+        await m.reply("<b>Use this command like this - \n\n`/set_verify_2 tnshort.net 06b24eb6bbb025713cd522fb3f696b6d5de11354`</b>")
         return
     sts = await m.reply("<b>♻️ ᴄʜᴇᴄᴋɪɴɢ...</b>")
     await asyncio.sleep(1.2)
@@ -806,7 +806,7 @@ async def set_shortner_3(c, m):
     if chat_type == enums.ChatType.PRIVATE:
         return await m.reply_text("<b>Use this command in Your group ! Not in Private</b>")
     if len(m.text.split()) == 1:
-        return await m.reply("<b>Use this command like this - \n\n`/set_shortner_3 tnshort.net 06b24eb6bbb025713cd522fb3f696b6d5de11354`</b>")
+        return await m.reply("<b>Use this command like this - \n\n`/set_verify_3 tnshort.net 06b24eb6bbb025713cd522fb3f696b6d5de11354`</b>")
     sts = await m.reply("<b>♻️ ᴄʜᴇᴄᴋɪɴɢ...</b>")
     await sts.delete()
     userid = m.from_user.id if m.from_user else None
@@ -950,7 +950,7 @@ async def set_time_2(client, message):
     except:
         return await message.reply_text("Command Incomplete!")   
     await save_group_settings(grp_id, 'verify_time', time)
-    await message.reply_text(f"Successfully set 1st verify time for {title}\n\nTime is - <code>{time}</code>")
+    await message.reply_text(f"Successfully set 2nd verify time for {title}\n\nTime is - <code>{time}</code>")
 
 @Client.on_message(filters.command('set_time_3'))
 async def set_time_3(client, message):
@@ -969,7 +969,7 @@ async def set_time_3(client, message):
     except:
         return await message.reply_text("Command Incomplete!")   
     await save_group_settings(grp_id, 'third_verify_time', time)
-    await message.reply_text(f"Successfully set 1st verify time for {title}\n\nTime is - <code>{time}</code>")
+    await message.reply_text(f"Successfully set 3rd verify time for {title}\n\nTime is - <code>{time}</code>")
 
 
 @Client.on_callback_query(filters.regex("mostsearch"))
