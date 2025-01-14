@@ -45,7 +45,7 @@ async def pm_search(client, message):
         await auto_filter(client, message)
     else:
         await message.reply_text("<b><i>ɪ ᴀᴍ ɴᴏᴛ ᴡᴏʀᴋɪɴɢ ʜᴇʀᴇ. ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇꜱ ɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ.</i></b>",
-                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ ", url=f'https://t.me/+ia1t2RXlWQw4OTI1')]]))
+                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ ", url=f'https://t.me/+jLE8taFHuVM4M2Fl')]]))
         
     
 @Client.on_message(filters.group & filters.text & filters.incoming)
@@ -190,7 +190,7 @@ async def next_page(bot, query):
                 for file in files
               ]
     btn.insert(0,[
-	InlineKeyboardButton("📥 𝗦𝗲𝗻𝗱 𝗔𝗹𝗹 𝗙𝗶𝗹𝗲𝘀 📥", callback_data=batch_link),
+	InlineKeyboardButton("📥 ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ 📥", callback_data=batch_link),
         ])
     btn.insert(1, [
         InlineKeyboardButton("ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -323,7 +323,7 @@ async def season_search(client: Client, query: CallbackQuery):
               ]
    
     btn.insert(0,[
-	InlineKeyboardButton("📥 𝗦𝗲𝗻𝗱 𝗔𝗹𝗹 𝗙𝗶𝗹𝗲𝘀 📥", callback_data=batch_link),
+	InlineKeyboardButton("📥 ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ 📥", callback_data=batch_link),
         ])
     btn.insert(1, [
         InlineKeyboardButton("ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -430,7 +430,7 @@ async def year_search(client: Client, query: CallbackQuery):
         
    
     btn.insert(0,[
-	InlineKeyboardButton("📥 𝗦𝗲𝗻𝗱 𝗔𝗹𝗹 𝗙𝗶𝗹𝗲𝘀 📥", callback_data=batch_link),
+	InlineKeyboardButton("📥 ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ 📥", callback_data=batch_link),
         ])
     btn.insert(1, [
         InlineKeyboardButton("ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -536,7 +536,7 @@ async def quality_search(client: Client, query: CallbackQuery):
         
  
     btn.insert(0,[
-	InlineKeyboardButton("📥 𝗦𝗲𝗻𝗱 𝗔𝗹𝗹 𝗙𝗶𝗹𝗲𝘀 📥", callback_data=batch_link),
+	InlineKeyboardButton("📥 ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ 📥", callback_data=batch_link),
         ])
     btn.insert(1, [
         InlineKeyboardButton("ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -647,7 +647,7 @@ async def lang_search(client: Client, query: CallbackQuery):
         
 
     btn.insert(0,[
-	InlineKeyboardButton("📥 𝗦𝗲𝗻𝗱 𝗔𝗹𝗹 𝗙𝗶𝗹𝗲𝘀 📥", callback_data=batch_link),
+	InlineKeyboardButton("📥 ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ 📥", callback_data=batch_link),
         ])
     btn.insert(1, [
         InlineKeyboardButton("ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -852,13 +852,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🫵 SUBSCRIBE 🫵', url="https://youtube.com/@hearttheft81"),
         ],[
-            InlineKeyboardButton('🍀 Movie Search Group 🍀', url="https://t.me/+ia1t2RXlWQw4OTI1")
+            InlineKeyboardButton('🍀 Movie Search Group 🍀', url="https://t.me/+jLE8taFHuVM4M2Fl")
         ],[
-            InlineKeyboardButton('🍂 Movie channel 🍂', url="https://t.me/ccmtamil")
+            InlineKeyboardButton('🍂 Movie channel 🍂', url="https://t.me/TamizhFiles")
         ],[
             InlineKeyboardButton('🍁 Tamil Chat Group 🍁', url="https://t.me/ccmtamilchat")
         ],[
-            InlineKeyboardButton('🥀 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🥀', url="https://t.me/cc_support_group"),
+            InlineKeyboardButton('🥀 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🥀', url="https://t.me/TGHelpingGroup"),
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
@@ -984,7 +984,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           chat_id=query.message.chat.id,
           message_id=query.message.id,
           media=InputMediaAnimation(
-            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Welcome_video_20240921_184741_0001.gif",
+            media="https://envs.sh/vYA.jpg",
             caption=script.ADMIN_CMD_TXT,
             parse_mode=enums.ParseMode.HTML
           ),
@@ -1000,7 +1000,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           chat_id=query.message.chat.id,
           message_id=query.message.id,
           media=InputMediaAnimation(
-            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Welcome_video_20240921_184741_0001.gif",
+            media="https://envs.sh/vYA.jpg",
             caption=script.ADMIN_CMD_TXT2,
             parse_mode=enums.ParseMode.HTML
           ),
@@ -1033,14 +1033,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview = True
 	)
     elif query.data == "mydevelopers":
-        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @JISSHU_BOTS\n👨‍💻 @IM_JISSHU\n👨‍💻 @JOYBOY_ZORO\n👨‍💻 @TG_Anonymous_Official\n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
+        await query.answer("Meet the minds behind this bot:\n\n⚜️ @Heart_thieft\n〽️ @Itsme_kp\n〽️ @Itzz_Kutty\n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
  
     elif query.data == "Source":
         buttons = [[
-            InlineKeyboardButton('Repo', url='https://github.com/Jisshubot/Jisshu-Filter-Bot')
+            InlineKeyboardButton('Repo', url='https://t.me/HeartXBotz')
         ],[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='about'),
-            InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
+            InlineKeyboardButton('⇋ ᴄʟᴏsᴇ ⇋', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1066,14 +1066,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	      InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
        ],[
               InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='features'),
-              InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/cc_support_group'),
+              InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/TGHelpingGroup'),
        ]]
        reply_markup = InlineKeyboardMarkup(buttons)
        await client.edit_message_media(
           chat_id=query.message.chat.id,
           message_id=query.message.id,
           media=InputMediaAnimation(
-            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Group_20240921_202540_0001.gif",
+            media="https://envs.sh/vYA.jpg",
             caption=script.GROUP_C_TEXT.format(temp.B_LINK),
             parse_mode=enums.ParseMode.HTML
         ),
@@ -1505,7 +1505,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
     if offset != "":
         if total_results >= MAX_BTN:
             btn.insert(0,[
-                InlineKeyboardButton("📥 𝗦𝗲𝗻𝗱 𝗔𝗹𝗹 𝗙𝗶𝗹𝗲𝘀 📥", callback_data=batch_link),
+                InlineKeyboardButton("📥 ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ 📥", callback_data=batch_link),
             ])
             btn.insert(1, [
                 InlineKeyboardButton("ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -1514,7 +1514,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
             ])            
         else:
             btn.insert(0,[
-                InlineKeyboardButton("📥 𝗦𝗲𝗻𝗱 𝗔𝗹𝗹 𝗙𝗶𝗹𝗲𝘀 📥", callback_data=batch_link),
+                InlineKeyboardButton("📥 ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ 📥", callback_data=batch_link),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#{offset}#{req}")
             ])
             btn.insert(1,[
@@ -1522,7 +1522,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
             ])
     else:
         btn.insert(0,[
-            InlineKeyboardButton("📥 𝗦𝗲𝗻𝗱 𝗔𝗹𝗹 𝗙𝗶𝗹𝗲𝘀 📥", callback_data=batch_link),
+            InlineKeyboardButton("📥 ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ 📥", callback_data=batch_link),
             ])
 
         btn.insert(1,[
